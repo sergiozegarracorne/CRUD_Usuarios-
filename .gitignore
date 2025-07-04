@@ -1,0 +1,35 @@
+# Archivos y carpetas generadas por Eclipse
+/.classpath
+/.project
+/.settings/
+
+# Archivos y carpetas de compilación
+/bin/
+/target/
+/build/
+
+# Archivos temporales del sistema operativo
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Archivos de Maven/Gradle
+/.mvn/
+/.gradle/
+/*.iml
+
+# Librerías externas
+/lib/*.jar
+
+# Archivos del entorno
+*.env
+
+# Archivos específicos de IDE
+/.idea/
+/.vscode/
+
+# Librerías cargadas por WindowBuilder
+.windowbuilder/
