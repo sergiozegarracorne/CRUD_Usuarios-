@@ -16,9 +16,6 @@ import javax.swing.table.DefaultTableModel;
 
 public class Formsuario extends JFrame {
 
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 1L;
 	private JTextField txtId, txtNombre, txtCorreo, txtEdad;
 	JButton btnActualizar,btnEliminar;
@@ -86,7 +83,7 @@ public class Formsuario extends JFrame {
 		btnListar.addActionListener(e -> listarUsuarios());
 		getContentPane().add(btnListar);
 
-		// Tabla para mostrar los usuarios
+	
 		String[] columnas = { "ID", "Nombre", "Correo", "Edad" };
 		modeloTabla = new DefaultTableModel(columnas, 0);
 		tablaUsuarios = new JTable(modeloTabla);
@@ -95,7 +92,7 @@ public class Formsuario extends JFrame {
 		scrollPane.setPreferredSize(new Dimension(550, 200));
 		getContentPane().add(scrollPane);
 
-		// Click en tabla para cargar datos en campos
+	
 		tablaUsuarios.addMouseListener(new MouseAdapter() {
 			public void mouseClicked(MouseEvent e) {
 				int filaSeleccionada = tablaUsuarios.getSelectedRow();
