@@ -1,6 +1,5 @@
 # CRUD Usuarios
 
-Este proyecto es un CRUD básico en Java con Swing y JDBC.
 
 Integrantes:
 
