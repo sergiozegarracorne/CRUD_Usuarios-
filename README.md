@@ -16,10 +16,10 @@ Integrantes:
 ## 📸 Capturas de pantalla
 
 ### Pantalla principal
-![Pantalla principal](capturas/pantalla1.png)
+![Pantalla principal](capturas/ok.png)
 
 ### Agregar usuario
-![Agregar usuario](capturas/pantalla2.png)
+![Agregar usuario](capturas/codigo2.png)
 
-### Actualizar usuario
-![Actualizar usuario](capturas/pantalla3.png)
+### Base de Datos
+![Actualizar usuario](capturas/base_datos.png)
